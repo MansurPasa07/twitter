@@ -1,0 +1,31 @@
+.btn{
+    display: inline-flex;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    color: #fff;
+    border: none;
+    align-items: center;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.btn-block{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-large{
+    height: 52px;
+    padding: 0 22px;
+    font-size: 17px;
+    font-weight: 700;
+}

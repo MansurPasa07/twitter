@@ -1,0 +1,54 @@
+.icon{
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-home {
+    background-image: url('../icons/home.svg');
+    background-size: contain;
+}
+
+.icon-bookmark {
+    background-image: url('../icons/bookmark.svg');
+    background-size: contain;
+}
+
+.icon-explore {
+    background-image: url('../icons/explore.svg');
+    background-size: contain;
+}
+
+.icon-list {
+    background-image: url('../icons/list.svg');
+    background-size: contain;
+}
+
+.icon-message {
+    background-image: url('../icons/message.svg');
+    background-size: contain;
+}
+
+.icon-more {
+    background-image: url('../icons/more.svg');
+    background-size: contain;
+}
+
+.icon-notification {
+    background-image: url('../icons/notification.svg');
+    background-size: contain;
+}
+
+.icon-user {
+    background-image: url('../icons/user.svg');
+    background-size: contain;
+}
+
+.icon-ellipse-v{
+    background-image: url('../icons/ellipse-v.svg');
+    background-size: contain;
+}
