@@ -25,6 +25,11 @@
 
 }
 
+.btn-light {
+    background-color: #EFF3F4;
+    color: #0F1419;
+}
+
 .btn-primary{
     background-color: var(--primary);
 }
