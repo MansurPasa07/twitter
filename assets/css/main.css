@@ -260,6 +260,7 @@ div {
 .card-head .btn .icon {
   width: 20px;
   height: 20px;
+  flex-shrink: 0;
 }
 
 .card-title {
@@ -269,16 +270,19 @@ div {
 
 .card-body {
   padding: 0 16px 12px;
+  flex-shrink: 0;
 }
 
 .card-more {
   padding: 16px;
+  flex-shrink: 0;
 }
 
 .trend-item {
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
+  flex-shrink: 0;
 }
 .trend-item-inner .text {
   color: #6e767d;
