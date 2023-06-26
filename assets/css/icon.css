@@ -52,3 +52,8 @@
     background-image: url('../icons/ellipse-v.svg');
     background-size: contain;
 }
+
+.icon-timeline{
+    background-image: url('../icons/timeline.svgs');
+    background-size: contain;
+}

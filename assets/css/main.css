@@ -25,6 +25,7 @@ body, html{
     flex-grow: 1;
     border-right: 1px solid var(--darkBorderColor);
     border-left: 1px solid var(--darkBorderColor);
+   
 }
 
 .page-right{
@@ -107,5 +108,16 @@ body, html{
 .prfl .text p:last-child {
     color: var(--textDarkColor);
     margin-top: 4px;
+}
+
+h1{
+    color: var(--textColor);
+    padding: 16px;
+
+}
+
+.page-content-header{
+    display: flex;
+
 }
 
