@@ -54,6 +54,64 @@
 }
 
 .icon-timeline{
-    background-image: url('../icons/timeline.svgs');
+    background-image: url('../icons/timeline.svg');
+    background-size: contain;
+}
+
+.icon-emoji{
+    background-image: url('../icons/emoji.svg');
+    background-size: contain;
+}
+
+.icon-media{
+    background-image: url('../icons/media.svg');
+    background-size: contain;
+}
+
+.icon-poll{
+    background-image: url('../icons/poll.svg');
+    background-size: contain;
+}
+
+.icon-schedule{
+    background-image: url('../icons/schedule.svg');
+    background-size: contain;
+}
+.icon-gif{
+    background-image: url('../icons/gif.svg');
+    background-size: contain;
+}
+
+.icon-verified{
+    background-image: url('../icons/verified.svg');
+    background-size: contain;
+}
+.icon-react {
+    background-image: url('../icons/react.svg');
+    background-size: contain;
+}
+
+.icon-reply {
+    background-image: url('../icons/reply.svg');
+    background-size: contain;
+}
+
+.icon-retweet {
+    background-image: url('../icons/retweet.svg');
+    background-size: contain;
+}
+
+.icon-share {
+    background-image: url('../icons/share.svg');
+    background-size: contain;
+}
+
+.icon-search {
+    background-image: url('../icons/search.svg');
+    background-size: contain;
+}
+
+.icon-settings {
+    background-image: url('../icons/settings.svg');
     background-size: contain;
 }
