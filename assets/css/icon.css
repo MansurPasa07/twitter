@@ -1,117 +1,103 @@
-.icon{
+.icon {
     width: 22px;
     height: 22px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.icon-sm {
+    width: 18px;
+    height: 18px;
+}
+
 .icon-home {
     background-image: url('../icons/home.svg');
-    background-size: contain;
 }
 
 .icon-bookmark {
     background-image: url('../icons/bookmark.svg');
-    background-size: contain;
 }
 
 .icon-explore {
     background-image: url('../icons/explore.svg');
-    background-size: contain;
 }
 
 .icon-list {
     background-image: url('../icons/list.svg');
-    background-size: contain;
 }
 
 .icon-message {
     background-image: url('../icons/message.svg');
-    background-size: contain;
 }
 
 .icon-more {
     background-image: url('../icons/more.svg');
-    background-size: contain;
 }
 
 .icon-notification {
     background-image: url('../icons/notification.svg');
-    background-size: contain;
 }
 
 .icon-user {
     background-image: url('../icons/user.svg');
-    background-size: contain;
 }
 
-.icon-ellipse-v{
+.icon-ellipse-v {
     background-image: url('../icons/ellipse-v.svg');
-    background-size: contain;
 }
 
-.icon-timeline{
+.icon-timeline {
     background-image: url('../icons/timeline.svg');
-    background-size: contain;
 }
 
-.icon-emoji{
+.icon-emoji {
     background-image: url('../icons/emoji.svg');
-    background-size: contain;
 }
 
-.icon-media{
-    background-image: url('../icons/media.svg');
-    background-size: contain;
-}
-
-.icon-poll{
-    background-image: url('../icons/poll.svg');
-    background-size: contain;
-}
-
-.icon-schedule{
-    background-image: url('../icons/schedule.svg');
-    background-size: contain;
-}
-.icon-gif{
+.icon-gif {
     background-image: url('../icons/gif.svg');
-    background-size: contain;
 }
 
-.icon-verified{
-    background-image: url('../icons/verified.svg');
-    background-size: contain;
+.icon-media {
+    background-image: url('../icons/media.svg');
 }
+
+.icon-poll {
+    background-image: url('../icons/poll.svg');
+}
+
+.icon-schedule {
+    background-image: url('../icons/schedule.svg');
+}
+
+.icon-verified {
+    background-image: url('../icons/verified.svg');
+}
+
 .icon-react {
     background-image: url('../icons/react.svg');
-    background-size: contain;
 }
 
 .icon-reply {
     background-image: url('../icons/reply.svg');
-    background-size: contain;
 }
 
 .icon-retweet {
     background-image: url('../icons/retweet.svg');
-    background-size: contain;
 }
 
 .icon-share {
     background-image: url('../icons/share.svg');
-    background-size: contain;
 }
 
 .icon-search {
     background-image: url('../icons/search.svg');
-    background-size: contain;
 }
 
 .icon-settings {
     background-image: url('../icons/settings.svg');
-    background-size: contain;
 }
