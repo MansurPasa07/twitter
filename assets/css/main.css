@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  min-height: 100%;
 }
 
 .container {
@@ -40,11 +40,18 @@ body, html {
   border-right: 1px solid var(--darkBorderColor);
 }
 
+h1{
+  color: var(--textColor);
+}
+
 .page-left-buttons {
   padding: 0 32px 0 12px;
   margin-top: 16px;
 }
 
+.page-left-buttons .btn .plus{
+  display: none;
+}
 .page-content {
   margin-left: 275px;
   flex-grow: 1;

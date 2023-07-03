@@ -1,0 +1,155 @@
+/* 2X Laptop */
+@media screen and (max-width: 1536px) {
+
+}
+
+/* X Laptop */
+@media screen and (max-width: 1280px) {
+    .navbar-link .navbar-text{
+        display: none;
+    }
+    .page-left{
+        width: 80px;
+        text-align: center;
+    }
+
+    .navbar-link .navbar-icon {
+        margin-right: 0;
+    }
+
+    .page-left-buttons {
+        padding: 0 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-left-buttons .btn .plus {
+        display: inline;
+    }
+    
+      .page-left-buttons .btn .text {
+        display: none;
+    }
+
+    .navbar-link {
+        justify-content: center;
+    }
+
+    .page-left-buttons .btn{
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .prfl .text{
+        display: none;
+    }
+
+    .prfl .more{
+        display: none;
+    }
+
+    .prfl{
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .page-conten{
+        margin-left: 80px;
+        max-width: 600px;
+    }
+
+    .container{
+        justify-content: flex-start;
+    }
+
+    .page-right{
+        width: 290px;
+    }
+
+
+
+
+
+    
+
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .page-right{
+        display: none;
+    }
+
+    .page-conten{
+        margin-left: 110px;
+        max-width: 600px;
+    }
+
+    .page-left{
+        width: 110px;
+        text-align: center;
+
+    }
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+body{
+    padding-bottom: 52px;
+}
+
+    .page-left{
+        display: none;
+    }
+
+    .page-conten{
+        margin-left: 0;
+        width: 100%;
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .tweet-buttons .tweet-button:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .tweet-buttons{
+        justify-content: space-between;
+    }
+
+    .mobile-navbar{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        height: 52px;
+        background-color: black;
+        border-top: 1px solid var(--darkBorderColor);
+        justify-content: space-between;
+    }
+
+    .mobile-navbar .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        position: relative;
+    }
+
+
+}
+
+/* Mobile */
+@media screen and (max-width: 640px) {
+
+    
+
+}
